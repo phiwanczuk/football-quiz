@@ -4,7 +4,7 @@ var quizQuestions = [
         answers: [
             {
 
-                content: "Chealse"
+                content: "Chelsea"
             },
             {
 
@@ -104,7 +104,7 @@ var quizQuestions = [
             },
             {
 
-                content: "Chealse"
+                content: "Chelsea"
             },
             {
 
