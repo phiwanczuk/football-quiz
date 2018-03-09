@@ -3,19 +3,19 @@ var quizQuestions = [
         question: "Która drużyna ma na swoim koncie najwiecęj zwycięstw w Lidze Mistrzów?",
         answers: [
             {
-
+                type:'soccer',
                 content: "Chelsea"
             },
             {
-
+                type:'soccer',
                 content: "Real Madryt"
             },
             {
-
+                type:'soccer',
                 content: "AC Milan"
             },
             {
-
+                type:'soccer',
                 content: "Bayern"
             }
 
@@ -28,19 +28,19 @@ var quizQuestions = [
         question: "Kto był bohaterem najdroższego transferu w historii?",
         answers: [
             {
-
+                type:'soccer',
                 content: "Neymar JR."
             },
             {
-
+                type:'soccer',
                 content: "Cristiano Ronaldo"
             },
             {
-
+                type:'soccer',
                 content: "Lionel Messi"
             },
             {
-
+                type:'soccer',
                 content: "Jakub Wawrzyniak"
             }
 
@@ -53,19 +53,19 @@ var quizQuestions = [
         question: "Kto strzelił najwięcej bramek dla Reprezntacji Polski w Piłkę Nożną?",
         answers: [
             {
-
+                type:'soccer',
                 content: "Robert Lewandowski"
             },
             {
-
+                type:'soccer',
                 content: "Sławomir Peszko"
             },
             {
-
+                type:'soccer',
                 content: "Włodzimierz Lubański"
             },
             {
-
+                type:'soccer',
                 content: "Grzegorz Lato"
             }
 
@@ -75,17 +75,19 @@ var quizQuestions = [
         question: "Kto strzelił najwięcej bramek na Mistrzostwach Świata w Piłkę Nożną?",
         answers: [
             {
-
+                type:'soccer',
                 content: "Gerd Muller"
             },
             {
-
+                type:'soccer',
                 content: "Pele"
             },
             {
+                type:'soccer',
                 content: "Miroslav Klose"
             },
             {
+                type:'soccer',
                 content: "Ronaldo"
             }
 
@@ -95,19 +97,19 @@ var quizQuestions = [
         question: "W jakim klubie grał Cristiano Ronaldo przed przyjściem do Realu Madryt?",
         answers: [
             {
-
+                type:'soccer',
                 content: "Manchaster United"
             },
             {
-
+                type:'soccer',
                 content: "Barcelona"
             },
             {
-
+                type:'soccer',
                 content: "Chelsea"
             },
             {
-
+                type:'soccer',
                 content: "Juventus"
             }
 
@@ -117,19 +119,19 @@ var quizQuestions = [
         question: "Jakie drużyn wzięły udział w meczu, w którym padł najwyższy wynik w historii Ligi Mistrzów?",
         answers: [
             {
-
+                type:'soccer',
                 content: "Legia Warszawa vs Borussia Dortmund"
             },
             {
-
+                type:'soccer',
                 content: "Real Madryt vs PAOK Saloniki"
             },
             {
-
+                type:'soccer',
                 content: "Manchester City vs FC Basel"
             },
             {
-
+                type:'soccer',
                 content: "FC Barcelona vs PSG"
             }
 
@@ -139,11 +141,11 @@ var quizQuestions = [
         question: "Który zespół może się poszczycić najwiekszą liczbą zwycięstw w angielskiej Premier League?",
         answers: [
             {
-
+                type:'soccer',
                 content: "Manchester City"
             },
             {
-
+                type:'soccer',
                 content: "Arsenal"
             },
             {

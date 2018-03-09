@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b54ac2ff-1193-41dc-b218-6321a3646732" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Components/Quiz/AnswerOption.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Components/Quiz/Quiz.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Quiz/AnswerOption.js" afterPath="$PROJECT_DIR$/src/Components/Quiz/AnswerOption.js" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Quiz/Quiz.js" afterPath="$PROJECT_DIR$/src/Components/Quiz/Quiz.js" />
+      <change beforePath="$PROJECT_DIR$/src/Components/api/database.js" afterPath="$PROJECT_DIR$/src/Components/api/database.js" />
       <change beforePath="$PROJECT_DIR$/src/index.css" afterPath="$PROJECT_DIR$/src/index.css" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,15 +22,45 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+            <state relative-caret-position="-1078">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnswerOption.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/Quiz/AnswerOption.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="14">
+              <caret line="1" column="33" lean-forward="false" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Components/api/database.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="70">
+              <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Result.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/Quiz/Result.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="28">
+              <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="71" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -47,18 +80,20 @@
       <file leaf-file-name="Quiz.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/Quiz/Quiz.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-207">
-              <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-              <folding />
+            <state relative-caret-position="-229">
+              <caret line="5" column="71" lean-forward="false" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="97" column="0" lean-forward="true" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+            <state relative-caret-position="152">
+              <caret line="129" column="33" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="154" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -89,15 +124,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Components/api/database.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/Components/Question/Question.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/Components/Question/QuestionCount.js" />
-        <option value="$PROJECT_DIR$/src/Components/Quiz/AnswerOption.js" />
         <option value="$PROJECT_DIR$/src/Components/Question/index.js" />
+        <option value="$PROJECT_DIR$/src/Components/Quiz/Result.js" />
+        <option value="$PROJECT_DIR$/src/Components/Quiz/AnswerOption.js" />
         <option value="$PROJECT_DIR$/src/Components/Quiz/Quiz.js" />
         <option value="$PROJECT_DIR$/src/index.css" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/Components/api/database.js" />
       </list>
     </option>
   </component>
@@ -116,11 +152,11 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="22" />
-    <option name="width" value="1301" />
-    <option name="height" value="611" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="61" />
+    <option name="y" value="18" />
+    <option name="width" value="1104" />
+    <option name="height" value="714" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -185,6 +221,13 @@
               <item name="football-quiz" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="football-quiz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="football-quiz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
               <item name="Question" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -203,7 +246,7 @@
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../todo_app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../react-quiz" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="false" />
@@ -233,33 +276,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520442718661</updated>
-      <workItem from="1520442720101" duration="5617000" />
+      <workItem from="1520442720101" duration="6398000" />
+      <workItem from="1520619001685" duration="1715000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5617000" />
+    <option name="totallyTimeSpent" value="8113000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="22" width="1301" height="611" extended-state="0" />
+    <frame x="49" y="-3" width="1317" height="771" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23359375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23070988" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32853025" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32853025" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943144" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24885496" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -274,81 +318,56 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Question/QuestionCount.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="1" column="34" lean-forward="false" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Quiz/Quiz.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1358">
+          <caret line="97" column="0" lean-forward="true" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/api/database.js">
+    <entry file="file://$PROJECT_DIR$/src/Components/Question/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="106" column="33" lean-forward="false" selection-start-line="106" selection-start-column="33" selection-end-line="106" selection-end-column="33" />
-          <folding>
-            <marker date="1520446755005" expanded="true" signature="20:4274" ph="[...]" />
-            <marker date="1520446755005" expanded="true" signature="26:421" ph="{&quot;question&quot;: &quot;Która drużyna ma na swoim koncie najwiecęj zwycięstw w Lidze Mistrzów?&quot;...}" />
-            <marker date="1520446755005" expanded="true" signature="137:415" ph="[...]" />
-            <marker date="1520446755005" expanded="true" signature="151:202" ph="{&quot;content&quot;: &quot;Chelsea&quot;...}" />
-            <marker date="1520446755005" expanded="true" signature="216:271" ph="{&quot;content&quot;: &quot;Real Madryt&quot;...}" />
-            <marker date="1520446755005" expanded="true" signature="285:337" ph="{&quot;content&quot;: &quot;AC Milan&quot;...}" />
-            <marker date="1520446755005" expanded="true" signature="351:401" ph="{&quot;content&quot;: &quot;Bayern&quot;...}" />
-            <marker date="1520446755005" expanded="true" signature="427:827" ph="{&quot;question&quot;: &quot;Kto był bohaterem najdroższego transferu w historii?&quot;...}" />
-            <marker date="1520446755005" expanded="true" signature="520:821" ph="[...]" />
-            <marker date="1520446755005" expanded="true" signature="534:588" ph="{&quot;content&quot;: &quot;Neymar JR.&quot;...}" />
-            <marker date="1520446755005" expanded="true" signature="602:663" ph="{&quot;content&quot;: &quot;Cristiano Ronaldo&quot;...}" />
-            <marker date="1520446755005" expanded="true" signature="677:733" ph="{&quot;content&quot;: &quot;Lionel Messi&quot;...}" />
-            <marker date="1520446755005" expanded="true" signature="747:807" ph="{&quot;content&quot;: &quot;Jakub Wawrzyniak&quot;...}" />
-            <marker date="1520446755005" expanded="true" signature="833:1257" ph="{&quot;question&quot;: &quot;Kto strzelił najwięcej bramek dla Reprezntacji Polski w Piłkę Nożną?&quot;...}" />
-            <marker date="1520446755005" expanded="true" signature="942:1251" ph="[...]" />
-            <marker date="1520446755005" expanded="true" signature="956:1018" ph="{&quot;content&quot;: &quot;Robert Lewandowski&quot;...}" />
-            <marker date="1520446755005" expanded="true" signature="1032:1091" ph="{&quot;content&quot;: &quot;Sławomir Peszko&quot;...}" />
-            <marker date="1520446755005" expanded="true" signature="1105:1169" ph="{&quot;content&quot;: &quot;Włodzimierz Lubański&quot;...}" />
-            <marker date="1520446755005" expanded="true" signature="1183:1240" ph="{&quot;content&quot;: &quot;Grzegorz Lato&quot;...}" />
-            <marker date="1520446755005" expanded="true" signature="1263:1655" ph="{&quot;question&quot;: &quot;Kto strzelił najwięcej bramek na Mistrzostwach Świata w Piłkę Nożną?&quot;...}" />
-            <marker date="1520446755005" expanded="true" signature="1372:1649" ph="[...]" />
-            <marker date="1520446755005" expanded="true" signature="1386:1441" ph="{&quot;content&quot;: &quot;Gerd Muller&quot;...}" />
-            <marker date="1520446755005" expanded="true" signature="1455:1503" ph="{&quot;content&quot;: &quot;Pele&quot;...}" />
-            <marker date="1520446755005" expanded="true" signature="1517:1574" ph="{&quot;content&quot;: &quot;Miroslav Klose&quot;...}" />
-            <marker date="1520446755005" expanded="true" signature="1588:1638" ph="{&quot;content&quot;: &quot;Ronaldo&quot;...}" />
-            <marker date="1520446755005" expanded="true" signature="1661:2063" ph="{&quot;question&quot;: &quot;W jakim klubie grał Cristiano Ronaldo przed przyjściem do Realu Madryt?&quot;...}" />
-            <marker date="1520446755005" expanded="true" signature="1773:2057" ph="[...]" />
-            <marker date="1520446755005" expanded="true" signature="1787:1848" ph="{&quot;content&quot;: &quot;Manchaster United&quot;...}" />
-            <marker date="1520446755005" expanded="true" signature="1862:1915" ph="{&quot;content&quot;: &quot;Barcelona&quot;...}" />
-            <marker date="1520446755005" expanded="true" signature="1929:1980" ph="{&quot;content&quot;: &quot;Chelsea&quot;...}" />
-            <marker date="1520446755005" expanded="true" signature="1994:2046" ph="{&quot;content&quot;: &quot;Juventus&quot;...}" />
-            <marker date="1520446755005" expanded="true" signature="2069:2559" ph="{&quot;question&quot;: &quot;Jakie drużyn wzięły udział w meczu, w którym padł najwyższy wynik w historii Ligi Mistrzów?&quot;...}" />
-            <marker date="1520446755005" expanded="true" signature="2201:2553" ph="[...]" />
-            <marker date="1520446755005" expanded="true" signature="2215:2294" ph="{&quot;content&quot;: &quot;Legia Warszawa vs Borussia Dortmund&quot;...}" />
-            <marker date="1520446755005" expanded="true" signature="2308:2380" ph="{&quot;content&quot;: &quot;Real Madryt vs PAOK Saloniki&quot;...}" />
-            <marker date="1520446755005" expanded="true" signature="2394:2465" ph="{&quot;content&quot;: &quot;Manchester City vs FC Basel&quot;...}" />
-            <marker date="1520446755005" expanded="true" signature="2479:2542" ph="{&quot;content&quot;: &quot;FC Barcelona vs PSG&quot;...}" />
-            <marker date="1520446755005" expanded="true" signature="2565:2995" ph="{&quot;question&quot;: &quot;Który zespół może się poszczycić najwiekszą liczbą zwycięstw w angielskiej Premier League?&quot;...}" />
-            <marker date="1520446755005" expanded="true" signature="2696:2989" ph="[...]" />
-            <marker date="1520446755005" expanded="true" signature="2710:2769" ph="{&quot;content&quot;: &quot;Manchester City&quot;...}" />
-            <marker date="1520446755005" expanded="true" signature="2783:2834" ph="{&quot;content&quot;: &quot;Arsenal&quot;...}" />
-            <marker date="1520446755005" expanded="true" signature="2848:2903" ph="{&quot;content&quot;: &quot;Aston Villa&quot;...}" />
-            <marker date="1520446755005" expanded="true" signature="2917:2978" ph="{&quot;content&quot;: &quot;Manchester United&quot;...}" />
-            <marker date="1520446755005" expanded="true" signature="3001:3370" ph="{&quot;question&quot;: &quot;Kto był zwycięzcą Mistrzostw Europy w 2012 roku?&quot;...}" />
-            <marker date="1520446755005" expanded="true" signature="3090:3364" ph="[...]" />
-            <marker date="1520446755005" expanded="true" signature="3104:3154" ph="{&quot;content&quot;: &quot;Niemcy&quot;...}" />
-            <marker date="1520446755005" expanded="true" signature="3168:3218" ph="{&quot;content&quot;: &quot;Włochy&quot;...}" />
-            <marker date="1520446755005" expanded="true" signature="3232:3285" ph="{&quot;content&quot;: &quot;Hiszpania&quot;...}" />
-            <marker date="1520446755005" expanded="true" signature="3299:3353" ph="{&quot;content&quot;: &quot;San Marino&quot;...}" />
-            <marker date="1520446755005" expanded="true" signature="3376:3849" ph="{&quot;question&quot;: &quot;Jaki angielski zespół nosi przydomek The Invincibles, odnoszący się do jednego z sezonów, w którym zespół ten nie przegrał ani jednego meczu?&quot;...}" />
-            <marker date="1520446755005" expanded="true" signature="3558:3843" ph="[...]" />
-            <marker date="1520446755005" expanded="true" signature="3572:3633" ph="{&quot;content&quot;: &quot;Nottingham Forest&quot;...}" />
-            <marker date="1520446755005" expanded="true" signature="3647:3700" ph="{&quot;content&quot;: &quot;Liverpool&quot;...}" />
-            <marker date="1520446755005" expanded="true" signature="3714:3767" ph="{&quot;content&quot;: &quot;Tottenham&quot;...}" />
-            <marker date="1520446755005" expanded="true" signature="3781:3832" ph="{&quot;content&quot;: &quot;Arsenal&quot;...}" />
-            <marker date="1520446755005" expanded="true" signature="3855:4271" ph="{&quot;question&quot;: &quot;Jakiego piłkarza znokautował Zinedine Zidane podczas Mistrzostw Świata w Niemczech w 2006?&quot;...}" />
-            <marker date="1520446755005" expanded="true" signature="3986:4265" ph="[...]" />
-            <marker date="1520446755005" expanded="true" signature="4000:4053" ph="{&quot;content&quot;: &quot;Materazzi&quot;...}" />
-            <marker date="1520446755005" expanded="true" signature="4067:4119" ph="{&quot;content&quot;: &quot;Barzagli&quot;...}" />
-            <marker date="1520446755005" expanded="true" signature="4133:4187" ph="{&quot;content&quot;: &quot;Cannavaro&quot;...}" />
-            <marker date="1520446755005" expanded="true" signature="4201:4254" ph="{&quot;content&quot;: &quot;Zambrotta&quot;...}" />
-          </folding>
+        <state relative-caret-position="14">
+          <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -362,18 +381,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Quiz/AnswerOption.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Question/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14">
           <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="129" column="33" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="154" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -388,38 +417,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
+    <entry file="file://$PROJECT_DIR$/src/Components/Quiz/Quiz.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-229">
+          <caret line="5" column="71" lean-forward="false" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Quiz/Quiz.js">
+    <entry file="file://$PROJECT_DIR$/src/Components/Quiz/AnswerOption.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-207">
-          <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        <state relative-caret-position="14">
+          <caret line="1" column="33" lean-forward="false" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.css">
+    <entry file="file://$PROJECT_DIR$/src/Components/Quiz/Result.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="97" column="0" lean-forward="true" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+        <state relative-caret-position="28">
+          <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1078">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/api/database.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
           <folding />
         </state>
       </provider>
