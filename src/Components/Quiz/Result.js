@@ -15,7 +15,7 @@ const Result = (props)=> {
                 transitionAppearTimeout={500}
             >
                 <div>
-                    You prefer <strong>{props.quizResult}</strong>!
+                    Osiągnięto:  <strong>{props.quizResult}</strong>!
                 </div>
             </ReactCSSTransitionGroup>
         </div>
