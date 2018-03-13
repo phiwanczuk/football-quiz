@@ -1,30 +1,35 @@
 import React, { Component } from 'react';
-import './App.css';
-import Quiz from "./Components/Quiz/Quiz";
-import database from './Components/api/database';
 import update from 'react-addons-update';
-import Result from './Components/Quiz/Result'
+import database from  './Components/api/database'
+import Quiz from './Components/Quiz/Quiz';
+import Result from './Components/Quiz/Result';
 
-
+import './App.css';
 
 class App extends Component {
 
-    state = {
-        counter: 0,
-        questionId: 1,
-        question: '',
-        answerOptions: [],
-        answer: '',
-        answersCount: {
-            asd:0,
+    constructor(props) {
+        super(props);
 
-        },
-        result: ''
-    };
+        this.state = {
+            counter: 0,
+            questionId: 1,
+            question: '',
+            answerOptions: [],
+            answer: '',
+            answersCount: {
+                    slabyWynik: 0,
+                    dobryWynik: 0,
+
+            },
+            result: ''
+        };
+
+        this.handleAnswerSelected = this.handleAnswerSelected.bind(this);
+    }
 
     componentWillMount() {
         const shuffledAnswerOptions = database.map((question) => this.shuffleArray(question.answers));
-
         this.setState({
             question: database[0].question,
             answerOptions: shuffledAnswerOptions[0]
@@ -32,7 +37,7 @@ class App extends Component {
     }
 
     shuffleArray(array) {
-        let currentIndex = array.length, temporaryValue, randomIndex;
+        var currentIndex = array.length, temporaryValue, randomIndex;
 
         // While there remain elements to shuffle...
         while (0 !== currentIndex) {
@@ -50,10 +55,21 @@ class App extends Component {
         return array;
     };
 
+    handleAnswerSelected(event) {
+        this.setUserAnswer(event.currentTarget.value);
+
+        if (this.state.questionId < database.length) {
+            setTimeout(() => this.setNextQuestion(), 300);
+        } else {
+            setTimeout(() => this.setResults(this.getResults()), 300);
+        }
+    }
+
     setUserAnswer(answer) {
         const updatedAnswersCount = update(this.state.answersCount, {
             [answer]: {$apply: (currentValue) => currentValue + 1}
         });
+
         this.setState({
             answersCount: updatedAnswersCount,
             answer: answer
@@ -63,6 +79,7 @@ class App extends Component {
     setNextQuestion() {
         const counter = this.state.counter + 1;
         const questionId = this.state.questionId + 1;
+
         this.setState({
             counter: counter,
             questionId: questionId,
@@ -71,7 +88,6 @@ class App extends Component {
             answer: ''
         });
     }
-
 
     getResults() {
         const answersCount = this.state.answersCount;
@@ -82,21 +98,14 @@ class App extends Component {
         return answersCountKeys.filter((key) => answersCount[key] === maxAnswerCount);
     }
 
-    setResults (result) {
+    setResults(result) {
         if (result.length === 1) {
             this.setState({ result: result[0] });
-        } else {
-            this.setState({ result: 'Undetermined' });
+        }else if(result.length === 3){
+            this.setState({ result: 'Niezły wynik'})
         }
-    }
-
-    handleAnswerSelected(event) {
-        this.setUserAnswer(event.currentTarget.value);
-        if (this.state.questionId < database.length) {
-            setTimeout(() => this.setNextQuestion(), 300);
-        } else {
-            // do nothing for now
-            setTimeout(() => this.setResults(this.getResults()), 300);
+        else {
+            this.setState({ result: 'zjebales' });
         }
     }
 
@@ -119,17 +128,17 @@ class App extends Component {
         );
     }
 
-
-  render() {
-    return (
-        <div className="App">
-            <div className="App-header">
-                <h2>React Quiz</h2>
+    render() {
+        return (
+            <div className="App">
+                <div className="App-header">
+                    <h2>Football Quiz</h2>
+                </div>
+                {this.state.result ? this.renderResult() : this.renderQuiz()}
             </div>
-            {this.state.result ? this.renderResult() : this.renderQuiz()}
-        </div>
-    );
-  }
+        );
+    }
+
 }
 
 export default App;
